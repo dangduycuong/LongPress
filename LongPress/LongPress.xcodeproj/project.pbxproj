@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEF41E0525F70A79007928A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF41E0425F70A79007928A6 /* AppDelegate.swift */; };
+		CEF41E0725F70A79007928A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF41E0625F70A79007928A6 /* SceneDelegate.swift */; };
+		CEF41E0925F70A79007928A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF41E0825F70A79007928A6 /* ViewController.swift */; };
+		CEF41E0C25F70A79007928A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF41E0A25F70A79007928A6 /* Main.storyboard */; };
+		CEF41E0E25F70A7A007928A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF41E0D25F70A7A007928A6 /* Assets.xcassets */; };
+		CEF41E1125F70A7A007928A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF41E0F25F70A7A007928A6 /* LaunchScreen.storyboard */; };
+		CEF41E1C25F70A7B007928A6 /* LongPressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF41E1B25F70A7B007928A6 /* LongPressTests.swift */; };
+		CEF41E2725F70A7B007928A6 /* LongPressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF41E2625F70A7B007928A6 /* LongPressUITests.swift */; };
+		CEF41E3525F70DE8007928A6 /* EdamamFoodAndGroceryDatabaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF41E3425F70DE8007928A6 /* EdamamFoodAndGroceryDatabaseModel.swift */; };
+		CEF41E3925F70F30007928A6 /* HintTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF41E3725F70F30007928A6 /* HintTableViewCell.swift */; };
+		CEF41E3A25F70F30007928A6 /* HintTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEF41E3825F70F30007928A6 /* HintTableViewCell.xib */; };
+		CEF41E3D25F70F49007928A6 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF41E3C25F70F49007928A6 /* BaseTableViewCell.swift */; };
+		CEF41E4025F70F6B007928A6 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF41E3F25F70F6B007928A6 /* UIView.swift */; };
+		CEF41E4425F711E5007928A6 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF41E4325F711E5007928A6 /* UIImageView.swift */; };
+		CEF41E4625F7150B007928A6 /* ShowFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF41E4525F7150B007928A6 /* ShowFoodViewController.swift */; };
+		CEF41E4825F71557007928A6 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF41E4725F71557007928A6 /* BaseViewController.swift */; };
+		CEF41E4A25F7162A007928A6 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF41E4925F7162A007928A6 /* Storyboard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEF41E1825F70A7B007928A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF41DF925F70A79007928A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEF41E0025F70A79007928A6;
+			remoteInfo = LongPress;
+		};
+		CEF41E2325F70A7B007928A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF41DF925F70A79007928A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEF41E0025F70A79007928A6;
+			remoteInfo = LongPress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEF41E0125F70A79007928A6 /* LongPress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LongPress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF41E0425F70A79007928A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEF41E0625F70A79007928A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CEF41E0825F70A79007928A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEF41E0B25F70A79007928A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEF41E0D25F70A7A007928A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEF41E1025F70A7A007928A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEF41E1225F70A7A007928A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF41E1725F70A7B007928A6 /* LongPressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LongPressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF41E1B25F70A7B007928A6 /* LongPressTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressTests.swift; sourceTree = "<group>"; };
+		CEF41E1D25F70A7B007928A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF41E2225F70A7B007928A6 /* LongPressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LongPressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF41E2625F70A7B007928A6 /* LongPressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressUITests.swift; sourceTree = "<group>"; };
+		CEF41E2825F70A7B007928A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF41E3425F70DE8007928A6 /* EdamamFoodAndGroceryDatabaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdamamFoodAndGroceryDatabaseModel.swift; sourceTree = "<group>"; };
+		CEF41E3725F70F30007928A6 /* HintTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintTableViewCell.swift; sourceTree = "<group>"; };
+		CEF41E3825F70F30007928A6 /* HintTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HintTableViewCell.xib; sourceTree = "<group>"; };
+		CEF41E3C25F70F49007928A6 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		CEF41E3F25F70F6B007928A6 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		CEF41E4325F711E5007928A6 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		CEF41E4525F7150B007928A6 /* ShowFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowFoodViewController.swift; sourceTree = "<group>"; };
+		CEF41E4725F71557007928A6 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		CEF41E4925F7162A007928A6 /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEF41DFE25F70A79007928A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF41E1425F70A7B007928A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF41E1F25F70A7B007928A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEF41DF825F70A79007928A6 = {
+			isa = PBXGroup;
+			children = (
+				CEF41E0325F70A79007928A6 /* LongPress */,
+				CEF41E1A25F70A7B007928A6 /* LongPressTests */,
+				CEF41E2525F70A7B007928A6 /* LongPressUITests */,
+				CEF41E0225F70A79007928A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEF41E0225F70A79007928A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEF41E0125F70A79007928A6 /* LongPress.app */,
+				CEF41E1725F70A7B007928A6 /* LongPressTests.xctest */,
+				CEF41E2225F70A7B007928A6 /* LongPressUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEF41E0325F70A79007928A6 /* LongPress */ = {
+			isa = PBXGroup;
+			children = (
+				CEF41E0425F70A79007928A6 /* AppDelegate.swift */,
+				CEF41E0625F70A79007928A6 /* SceneDelegate.swift */,
+				CEF41E3425F70DE8007928A6 /* EdamamFoodAndGroceryDatabaseModel.swift */,
+				CEF41E4925F7162A007928A6 /* Storyboard.swift */,
+				CEF41E3E25F70F5D007928A6 /* Extension */,
+				CEF41E3B25F70F38007928A6 /* Base */,
+				CEF41E3625F70F12007928A6 /* HintTableViewCell */,
+				CEF41E0825F70A79007928A6 /* ViewController.swift */,
+				CEF41E4525F7150B007928A6 /* ShowFoodViewController.swift */,
+				CEF41E0A25F70A79007928A6 /* Main.storyboard */,
+				CEF41E0D25F70A7A007928A6 /* Assets.xcassets */,
+				CEF41E0F25F70A7A007928A6 /* LaunchScreen.storyboard */,
+				CEF41E1225F70A7A007928A6 /* Info.plist */,
+			);
+			path = LongPress;
+			sourceTree = "<group>";
+		};
+		CEF41E1A25F70A7B007928A6 /* LongPressTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEF41E1B25F70A7B007928A6 /* LongPressTests.swift */,
+				CEF41E1D25F70A7B007928A6 /* Info.plist */,
+			);
+			path = LongPressTests;
+			sourceTree = "<group>";
+		};
+		CEF41E2525F70A7B007928A6 /* LongPressUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEF41E2625F70A7B007928A6 /* LongPressUITests.swift */,
+				CEF41E2825F70A7B007928A6 /* Info.plist */,
+			);
+			path = LongPressUITests;
+			sourceTree = "<group>";
+		};
+		CEF41E3625F70F12007928A6 /* HintTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CEF41E3725F70F30007928A6 /* HintTableViewCell.swift */,
+				CEF41E3825F70F30007928A6 /* HintTableViewCell.xib */,
+			);
+			path = HintTableViewCell;
+			sourceTree = "<group>";
+		};
+		CEF41E3B25F70F38007928A6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CEF41E3C25F70F49007928A6 /* BaseTableViewCell.swift */,
+				CEF41E4725F71557007928A6 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		CEF41E3E25F70F5D007928A6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CEF41E3F25F70F6B007928A6 /* UIView.swift */,
+				CEF41E4325F711E5007928A6 /* UIImageView.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEF41E0025F70A79007928A6 /* LongPress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF41E2B25F70A7B007928A6 /* Build configuration list for PBXNativeTarget "LongPress" */;
+			buildPhases = (
+				CEF41DFD25F70A79007928A6 /* Sources */,
+				CEF41DFE25F70A79007928A6 /* Frameworks */,
+				CEF41DFF25F70A79007928A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LongPress;
+			productName = LongPress;
+			productReference = CEF41E0125F70A79007928A6 /* LongPress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEF41E1625F70A7B007928A6 /* LongPressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF41E2E25F70A7B007928A6 /* Build configuration list for PBXNativeTarget "LongPressTests" */;
+			buildPhases = (
+				CEF41E1325F70A7B007928A6 /* Sources */,
+				CEF41E1425F70A7B007928A6 /* Frameworks */,
+				CEF41E1525F70A7B007928A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEF41E1925F70A7B007928A6 /* PBXTargetDependency */,
+			);
+			name = LongPressTests;
+			productName = LongPressTests;
+			productReference = CEF41E1725F70A7B007928A6 /* LongPressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEF41E2125F70A7B007928A6 /* LongPressUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF41E3125F70A7B007928A6 /* Build configuration list for PBXNativeTarget "LongPressUITests" */;
+			buildPhases = (
+				CEF41E1E25F70A7B007928A6 /* Sources */,
+				CEF41E1F25F70A7B007928A6 /* Frameworks */,
+				CEF41E2025F70A7B007928A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEF41E2425F70A7B007928A6 /* PBXTargetDependency */,
+			);
+			name = LongPressUITests;
+			productName = LongPressUITests;
+			productReference = CEF41E2225F70A7B007928A6 /* LongPressUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEF41DF925F70A79007928A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Dang Duy Cuong";
+				TargetAttributes = {
+					CEF41E0025F70A79007928A6 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					CEF41E1625F70A7B007928A6 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = CEF41E0025F70A79007928A6;
+					};
+					CEF41E2125F70A7B007928A6 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = CEF41E0025F70A79007928A6;
+					};
+				};
+			};
+			buildConfigurationList = CEF41DFC25F70A79007928A6 /* Build configuration list for PBXProject "LongPress" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEF41DF825F70A79007928A6;
+			productRefGroup = CEF41E0225F70A79007928A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEF41E0025F70A79007928A6 /* LongPress */,
+				CEF41E1625F70A7B007928A6 /* LongPressTests */,
+				CEF41E2125F70A7B007928A6 /* LongPressUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEF41DFF25F70A79007928A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF41E3A25F70F30007928A6 /* HintTableViewCell.xib in Resources */,
+				CEF41E1125F70A7A007928A6 /* LaunchScreen.storyboard in Resources */,
+				CEF41E0E25F70A7A007928A6 /* Assets.xcassets in Resources */,
+				CEF41E0C25F70A79007928A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF41E1525F70A7B007928A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF41E2025F70A7B007928A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEF41DFD25F70A79007928A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF41E4425F711E5007928A6 /* UIImageView.swift in Sources */,
+				CEF41E4A25F7162A007928A6 /* Storyboard.swift in Sources */,
+				CEF41E0925F70A79007928A6 /* ViewController.swift in Sources */,
+				CEF41E4625F7150B007928A6 /* ShowFoodViewController.swift in Sources */,
+				CEF41E0525F70A79007928A6 /* AppDelegate.swift in Sources */,
+				CEF41E0725F70A79007928A6 /* SceneDelegate.swift in Sources */,
+				CEF41E4825F71557007928A6 /* BaseViewController.swift in Sources */,
+				CEF41E4025F70F6B007928A6 /* UIView.swift in Sources */,
+				CEF41E3925F70F30007928A6 /* HintTableViewCell.swift in Sources */,
+				CEF41E3D25F70F49007928A6 /* BaseTableViewCell.swift in Sources */,
+				CEF41E3525F70DE8007928A6 /* EdamamFoodAndGroceryDatabaseModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF41E1325F70A7B007928A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF41E1C25F70A7B007928A6 /* LongPressTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEF41E1E25F70A7B007928A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF41E2725F70A7B007928A6 /* LongPressUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEF41E1925F70A7B007928A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEF41E0025F70A79007928A6 /* LongPress */;
+			targetProxy = CEF41E1825F70A7B007928A6 /* PBXContainerItemProxy */;
+		};
+		CEF41E2425F70A7B007928A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEF41E0025F70A79007928A6 /* LongPress */;
+			targetProxy = CEF41E2325F70A7B007928A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEF41E0A25F70A79007928A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF41E0B25F70A79007928A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEF41E0F25F70A7A007928A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEF41E1025F70A7A007928A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEF41E2925F70A7B007928A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEF41E2A25F70A7B007928A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEF41E2C25F70A7B007928A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R545ZGZS5K;
+				INFOPLIST_FILE = LongPress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Dang-Duy-Cuong.LongPress";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEF41E2D25F70A7B007928A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R545ZGZS5K;
+				INFOPLIST_FILE = LongPress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Dang-Duy-Cuong.LongPress";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEF41E2F25F70A7B007928A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R545ZGZS5K;
+				INFOPLIST_FILE = LongPressTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Dang-Duy-Cuong.LongPressTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LongPress.app/LongPress";
+			};
+			name = Debug;
+		};
+		CEF41E3025F70A7B007928A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R545ZGZS5K;
+				INFOPLIST_FILE = LongPressTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Dang-Duy-Cuong.LongPressTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LongPress.app/LongPress";
+			};
+			name = Release;
+		};
+		CEF41E3225F70A7B007928A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R545ZGZS5K;
+				INFOPLIST_FILE = LongPressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Dang-Duy-Cuong.LongPressUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LongPress;
+			};
+			name = Debug;
+		};
+		CEF41E3325F70A7B007928A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R545ZGZS5K;
+				INFOPLIST_FILE = LongPressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Dang-Duy-Cuong.LongPressUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LongPress;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEF41DFC25F70A79007928A6 /* Build configuration list for PBXProject "LongPress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF41E2925F70A7B007928A6 /* Debug */,
+				CEF41E2A25F70A7B007928A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF41E2B25F70A7B007928A6 /* Build configuration list for PBXNativeTarget "LongPress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF41E2C25F70A7B007928A6 /* Debug */,
+				CEF41E2D25F70A7B007928A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF41E2E25F70A7B007928A6 /* Build configuration list for PBXNativeTarget "LongPressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF41E2F25F70A7B007928A6 /* Debug */,
+				CEF41E3025F70A7B007928A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF41E3125F70A7B007928A6 /* Build configuration list for PBXNativeTarget "LongPressUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF41E3225F70A7B007928A6 /* Debug */,
+				CEF41E3325F70A7B007928A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEF41DF925F70A79007928A6 /* Project object */;
+}
